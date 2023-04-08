@@ -1,4 +1,4 @@
-package chapter3_array;
+package bookStudy.chapter3_array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
