@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Race
+public class 달리기_경주
 {
     public String[] solution(String[] players, String[] callings)
     {
@@ -43,10 +43,10 @@ public class Race
 
     public static void main(String[] args)
     {
-        Race race = new Race();
+        달리기_경주 달리기경주 = new 달리기_경주();
         String[] players = {"mumu", "soe", "poe", "kai", "mine"};
         String[] callings = {"kai", "kai", "mine", "mine"};
-        String[] result = race.solution(players, callings);
+        String[] result = 달리기경주.solution(players, callings);
 
         System.out.println("result = " + Arrays.toString(result));
     }
