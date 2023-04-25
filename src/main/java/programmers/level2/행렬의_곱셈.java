@@ -1,8 +1,8 @@
-package bookStudy.chapter3_array;
+package programmers.level2;
 
 import java.util.Arrays;
 
-public class Problem4
+public class 행렬의_곱셈
 {
     public int[][] solution(int[][] arr1, int[][] arr2)
     {
@@ -42,10 +42,10 @@ public class Problem4
 
     public static void main(String[] args)
     {
-        Problem4 problem4 = new Problem4();
+        행렬의_곱셈 행렬의곱셈 = new 행렬의_곱셈();
         int[][] arr1 = {{1, 4}, {3, 2}, {4, 1}};
         int[][] arr2 = {{3, 3}, {3, 3}};
 
-        System.out.println("result = " + Arrays.deepToString(problem4.solution(arr1, arr2)));
+        System.out.println("result = " + Arrays.deepToString(행렬의곱셈.solution(arr1, arr2)));
     }
 }

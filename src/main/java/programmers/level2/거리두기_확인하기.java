@@ -1,8 +1,8 @@
-package bookStudy.chapter3_array;
+package programmers.level2;
 
 import java.util.Arrays;
 
-public class Problem3
+public class 거리두기_확인하기
 {
     // 1. 대기실의 모든 응시자 위치에 대해 반복
     // 1-A. 상하좌우 중 빈테이블이 있는 방향에 대해 1-B로 진행
@@ -107,9 +107,9 @@ public class Problem3
 
     public static void main(String[] args)
     {
-        Problem3 problem3 = new Problem3();
+        거리두기_확인하기 거리두기확인하기 = new 거리두기_확인하기();
         String[][] places = new String[][]{{"POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"}, {"POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"}};
-        int[] solution = problem3.solution(places);
+        int[] solution = 거리두기확인하기.solution(places);
         System.out.println("solution = " + Arrays.toString(solution));
     }
 }

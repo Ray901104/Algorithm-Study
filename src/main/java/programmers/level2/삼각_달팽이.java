@@ -1,6 +1,6 @@
-package bookStudy.chapter3_array;
+package programmers.level2;
 
-public class Problem2
+public class 삼각_달팽이
 {
     private static final int[] dx = {0, 1, -1}; // 아래 오른쪽 왼쪽 위
     private static final int[] dy = {1, 0, -1}; // 아래 오른쪽 왼쪽 위
@@ -57,7 +57,7 @@ public class Problem2
 
     public static void main(String[] args)
     {
-        Problem2 problem2 = new Problem2();
-        problem2.solution(4);
+        삼각_달팽이 삼각달팽이 = new 삼각_달팽이();
+        삼각달팽이.solution(4);
     }
 }

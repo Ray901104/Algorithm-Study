@@ -1,10 +1,10 @@
-package bookStudy.chapter3_array;
+package programmers.level2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Problem1
+public class 교점에_별_만들기
 {
     public String[] solution(int[][] line)
     {
@@ -119,8 +119,8 @@ public class Problem1
 
     public static void main(String[] args)
     {
-        Problem1 problem1 = new Problem1();
-        System.out.println("result = " + Arrays.toString(problem1.solution(new int[][]{{2, -1, 4}, {-2, -1, 4}, {0, -1, 1}, {5, -8, -12}, {5, 8, 12}})));
+        교점에_별_만들기 교점에_별_만들기 = new 교점에_별_만들기();
+        System.out.println("result = " + Arrays.toString(교점에_별_만들기.solution(new int[][]{{2, -1, 4}, {-2, -1, 4}, {0, -1, 1}, {5, -8, -12}, {5, 8, 12}})));
     }
 }
 
