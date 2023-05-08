@@ -7,22 +7,20 @@ public class 모음_사전
 {
     private static final char[] CHARS = "AEIOU".toCharArray();
 
-    private void generate(String word, List<String> words)
-    {
+    private List<String> generate(String word) {
+        List<String> words = new ArrayList<>();
         words.add(word);
 
-        if (word.length() == 5) return;
+        if (word.length() == 5) return words;
 
-        for (char c : CHARS)
-        {
-            generate(word + c, words);
+        for (char c : CHARS) {
+            words.addAll(generate(word + c));
         }
+        return words;
     }
 
     public int solution(String word)
     {
-        List<String> words = new ArrayList<>();
-        generate("", words);
-        return words.indexOf(word);
+        return generate("").indexOf(word);
     }
 }
